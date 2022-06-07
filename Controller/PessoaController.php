@@ -65,8 +65,7 @@ class PessoaController
         include 'Model/PessoaModel.php';
         $model = new PessoaModel();
         $model->delete( (int) $_GET['id'] );
-        header("Location: /pessoa");
-            
+        header("Location: /pessoa");           
 
     }
 
